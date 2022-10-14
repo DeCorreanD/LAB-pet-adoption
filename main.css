@@ -1,0 +1,62 @@
+body {
+	background-color: lightcoral;
+}
+
+#app {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 20%;
+}
+
+.card {
+	margin: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.button {
+	align-content: center;
+}
+
+.button1 {
+	padding: 20px;
+	color: black;
+	background-color: lightgoldenrodyellow;
+	margin: 20px;
+	text-align: center;
+}
+
+.button1:hover {
+	color: black;
+	background-color: goldenrod;
+}
+
+.button1:active {
+	color: black;
+	background-color: goldenrod;
+}
+
+.button2 {
+	padding: 20px;
+	color: black;
+	background-color: lightseagreen;
+}
+
+.button3 {
+	padding: 20px;
+	color: black;
+	background-color: lightgrey;
+}
+
+.Cat {
+	background-color: lightgoldenrodyellow;
+}
+
+.Dog {
+	background-color: lightseagreen;
+}
+
+.Dino {
+	background-color: lightgray;
+}
