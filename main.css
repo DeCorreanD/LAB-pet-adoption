@@ -16,7 +16,8 @@ body {
 }
 
 .button {
-	align-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .button1 {
@@ -29,7 +30,7 @@ body {
 
 .button1:hover {
 	color: black;
-	background-color: goldenrod;
+	background-color: gold;
 }
 
 .button1:active {
@@ -41,12 +42,52 @@ body {
 	padding: 20px;
 	color: black;
 	background-color: lightseagreen;
+	margin: 20px;
+	text-align: center;
+}
+.button2:hover {
+	color: black;
+	background-color: seagreen;
+}
+button2:active {
+	color: black;
+	background-color: seagreen;
 }
 
 .button3 {
 	padding: 20px;
 	color: black;
 	background-color: lightgrey;
+	margin: 20px;
+	text-align: center;
+}
+
+.button3:active {
+	color: black;
+	background-color: grey;
+}
+
+.button3:hover {
+	color: black;
+	background-color: darkgrey;
+}
+
+.button4 {
+	padding: 20px;
+	color: black;
+	background-color: lightskyblue;
+	margin: 20px;
+	text-align: center;
+}
+
+> .button4:active {
+	color: black;
+	background-color: skyblue;
+}
+
+.button4:hover {
+	color: black;
+	background-color: darkblue;
 }
 
 .Cat {
