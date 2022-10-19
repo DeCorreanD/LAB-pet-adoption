@@ -80,7 +80,7 @@ button2:active {
 	text-align: center;
 }
 
-> .button4:active {
+.button4:active {
 	color: black;
 	background-color: skyblue;
 }
@@ -100,4 +100,8 @@ button2:active {
 
 .Dino {
 	background-color: lightgray;
+}
+
+.btn btn-danger {
+	justify-content: center;
 }
